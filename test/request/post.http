@@ -16,11 +16,13 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3000/posts/3
+PUT http://localhost:3000/posts/4
 Content-Type: application/json
 
 {
-  "name": "ruby"
+  "title": "Learn Rails",
+  "content": "Learn Rails is fun",
+  "author": "zhaoxm"
 }
 
 ###
